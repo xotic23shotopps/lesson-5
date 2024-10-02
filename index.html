@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, td, th {
+            border: 1px, solid;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <table>
+        <thead>
+            <tbody></tbody>
+        </thead>
         <tr>
             <th> emri</th>
             <th>Mbiemri</th>
@@ -26,6 +35,53 @@
           <th>gertinjo@gmail.com</th>
      </tr>
     </table>
-    
+    <tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Table footer</td>
+            </tr>
+        </tfoot>
+    </tbody>
+    <table>
+        <tr>
+            <th> emri</th>
+            <td>denik zariqi</td>
+            <rd> gertinjo</rd>
+        </tr>
+    </table>
+    <tr>
+        <th rowspawn="2">Email-in</th>
+        <td>denikzariqi25@gmail.com</td>
+        <td rowspan="2"> gertcalaj@gmail.com</td>
+    </tr>
+    <tr>
+        <td>trimkrasnqi@gmail.com</td>
+    </tr>
+    <table>
+     
+        <ul>
+            <li>Marshi i UCK-se</li>
+            <li>Mora Fjale</li>
+            <li> fjalet e qiririt</li>
+            <ul>
+                <ol>
+                    <li>Marsi is UCK-se</li>
+                    <li>Mora Fjale</li>
+                    <li>Fjalet e qirrit</li>
+        <ol>
+            <dl>
+                <dt>Hamburgeri</dt>
+                <dd>buke, mish, sallate, keqap, majonez</dd>
+                <dt>pica</dt>
+                <dd>porshute, brum, keqap, domate</dd> 
+        <ol start="50">
+          <li>denik</li>
+         <li>Tea</li>
+        <li>Milk</li>
+         </ol>
+
+         <h1> contenteditable="true"> provo me ndryshu tekstin e ketij elementi</h1>
+ 
+         <p> e kemi nje takim ne ora <time> 16:20</time> per projekter</p>
 </body>
 </html>
